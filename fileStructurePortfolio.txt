@@ -1,0 +1,29 @@
+bb-portfolio2.0
+|--/app
+|--|--layout.jsx		// still original blank
+|--|--page.jsx			// still original blank
+|--/node_modules
+|--/public
+|--|--images
+|--/src
+|--|--/shared
+|--|--|--Footer.jsx		// copied from hub
+|--|--|--Header.jsx		// copied from hub
+|--|--|--ThemeToggle.jsx	// copied from hub
+|--|--/styles
+|--|--|--globals.css		// copied from hub
+|--|--/ui
+|--|--|--ProjectCard.jsx    	// copied from hub
+|--|--|--TabBox.jsx	    	// copied from hub
+|--|--|--TagFilter.jsx	    	// copied from hub
+|--.gitignore		    	// still original
+|--eslint.config.mjs
+|--jsconfig.json	     	// copied to include "baseUrl": "."
+|--next.config.js	    // copied looks needed for searching with image
+|--package.json			// left original not sure
+|--package-lock.json		// also left new alone
+|--postcss.config.js		// left alone it diff hub module.exports 
+				   good new portfolio const config for 
+				   plug ins has tailwindcss/postcss
+|--tailwind.config.js		// copied from hub
+|--fileStructurPortfolio.txt	// Hello :)
