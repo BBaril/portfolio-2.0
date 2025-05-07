@@ -200,7 +200,7 @@ export default function Home() {
             </p>
             <div className="flex flex-row gap-6 justify-center">
               <a
-                href="https://bethanybaril.com/hub"
+                href="https://hub.bethanybaril.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-1 w-42 px-5 py-2 rounded-lg bg-bbTeal/80 text-black dark:bg-bbTealDark/70 dark:text-bbOffBlack font-semibold hover:bg-bbPink/70 dark:hover:bg-bbPinkDark/70 transition shadow-md hover:shadow-lg"

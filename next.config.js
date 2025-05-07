@@ -1,12 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  async rewrites() {
-    return [
-      {
-      
-      },
-    ];
-  },
+  // No more turbo option
 };
 
 module.exports = nextConfig;

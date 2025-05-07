@@ -12,8 +12,6 @@
   }
 }
 
-
-
 section {
     scroll-margin-top: 6rem;
   }
@@ -26,7 +24,6 @@ section {
     text-shadow: 2.5px 2.75px #66cccc;
   }
   
-
   .dark .custom-title-shadow {
     text-shadow:
       1px 1px 2px black,
@@ -43,7 +40,6 @@ section {
       1.75px 1.75px 4px #5cb8b8;
   }
 
-
   .project-card:hover {
     background-color: #f0f4f8;
   }
@@ -56,18 +52,14 @@ section {
     transition: background 0.2s, color 0.2s;
   }
   
-
   .border-t {
     border-top-width: 2px;
 }
-
 
 .py-2 {
   padding-top: 1.25rem /* 8px */;
   padding-bottom: 1.25rem /* 8px */;
 }
-
-
 
 select option {
   background-color: #fef7f0; /* softened light teal (pastel, no opacity) */
@@ -80,11 +72,6 @@ select option {
     color: #405ad4;
   }
 
-
-  .dummy-test {
-    @apply font-title text-red-500;
-  }
-  
   .dark {
     background-color: #1e1e1e; /* bbOffBlack */
     color: #e5e7eb;           /* Tailwind gray-300 or bbOffWhiteSoft */
