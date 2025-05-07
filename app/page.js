@@ -7,6 +7,7 @@ import githubIcon from '/public/github-light.png';
 import linkedinIcon from '/public/linkedIn2.png';
 import emailIcon from '/public/email-light.png';
 import bbIcon from '/public/bbLogo2.png';
+import AmosGreeting from "@/shared/AmosGreeting.jsx";
 
 export default function Home() {
   return (
@@ -38,13 +39,9 @@ export default function Home() {
         {/* Greeting + SVG */}
           
         <div className="text-center md:text-left">
-          <p className="text-2xl md:text-3xl font-semibold text-bbTealDark dark:text-bbTeal/80">
-            Hello
-          </p>
-          <svg width="150" height="40" viewBox="0 0 150 40" fill="none" xmlns="http://www.w3.org/2000/svg" className="mx-auto md:mx-0">
-            <path d="M2 20 C 40 0, 110 40, 148 20" stroke="#66cccc" strokeWidth="2" fill="none" />
-            <circle cx="148" cy="20" r="2" fill="#66cccc" />
-          </svg>
+
+        <AmosGreeting />
+
           <p className="text-md text-bbOffBlackSoft dark:text-bbOffWhiteSoft/90 mt-3 max-w-md">
             I bring ideas to life with{" "}
             <span className="font-semibold text-bbBlueDark dark:text-bbBlue">curiosity</span>,{" "}
