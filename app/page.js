@@ -40,7 +40,7 @@ export default function Home() {
           
         <div className="text-center md:text-left">
 
-        <AmosGreeting />
+        
 
           <p className="text-md text-bbOffBlackSoft dark:text-bbOffWhiteSoft/90 mt-3 max-w-md">
             I bring ideas to life with{" "}
