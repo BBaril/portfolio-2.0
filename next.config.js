@@ -1,6 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // No more turbo option
+  async rewrites() {
+    return [
+      {
+        source: '/hub/:path*',
+        destination: 'https://project-hub-seven.vercel.app/:path*',
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
